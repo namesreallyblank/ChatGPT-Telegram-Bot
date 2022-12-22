@@ -1,5 +1,17 @@
 {
+  "name": "my-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot using the OpenAI API",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install node-telegram-bot-api openai express body-parser dotenv",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "node-telegram-bot-api": "^0.60.0",
     "openai": "^3.1.0"
   }
